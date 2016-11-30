@@ -1,14 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500|Unna');
 
 
 html {
     font-size: 16px;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
 }
 
-h1,h2,h3,h4,h5,h6,p {
-    font-family: 'Open Sans', sans-serif;
-    color: rgba(0,0,0,0.8);
+h1,h2,h3,h4,h5,h6 {
+    color: #232323
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #898989;
 }
 
 h1{
@@ -23,6 +29,14 @@ h3{
     font-size: 2.4rem;
 }
 
+.gold-color {
+    color: #9F8F68;
+}
+
+
+.roboto-font {
+    font-family: 'Roboto', sans-serif;
+}
 
 .standard-mar-btm {
     margin-bottom: 34px;
@@ -46,8 +60,7 @@ h3{
 .menu {
     display: inline-block;
     float: right;
-    width:50px;
-    height:50px;
+    width:40px;
 
 }
 
@@ -77,17 +90,19 @@ h3{
     font-size: 1rem;
     letter-spacing: 2px;
     margin-bottom: 16px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .content-large-header {
     font-size: 2.2rem;
     margin-bottom: 16px;
+    font-family: 'Unna', serif;
 
 }
 
 .content-p {
-    font-family: 'Open Sans', sans-serif;
     line-height: normal;
-    font-size: 1rem;
+    font-size: 1.4rem;
 
 }
